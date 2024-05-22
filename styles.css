@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0 0 0;
+    letter-spacing: 0.1em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.left-column, .right-column {
+    width: 45%;
+}
+
+.left-column h3, .right-column h3 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.left-column p, .right-column p {
+    margin: 10px 0;
+}
+
+.contact a, .skills, .education, .about, .work-experience {
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+}
+
+.job p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.job ul {
+    list-style: disc inside;
+    margin: 10px 0;
+}
+
+.job ul li {
+    margin: 5px 0;
+}
